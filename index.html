@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- Option 1: Include in HTML -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+ <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Boostrap pokus</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container"><a href="#" class="navbar-brand">Frontend</a>
+
+            <button 
+            class="navbar-toggler"
+             type="button" 
+             data-bs-toggle="collapse" 
+             data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">Co jsem se naučil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Otázky</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#customers" class="nav-link">Zákazníci</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#kontakt" class="nav-link">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>   
+    
+    </nav>
+
+<!--Showcase-->
+
+<section class="bg-dark text-light mt-5 p-5 text-center text-sm-start">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+                <h1>Junior developer <span class ="text-warning"></span></h1>
+                <p class="lead my-2">
+                    Soustředím se na vyzkoušení Bootstrapu. Nějak se to naučit musím. 
+                </p>
+                <p>Škoda jenom, že ty první pokusy vždycky stojí za prd.</p>
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Stačí začít</button>
+            </div>
+            <img class="img-fluid w-50 d-sm-block" src="https://www.onlygfx.com/wp-content/uploads/2017/06/mountain-drawing-3-1024x379.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!--NewsLetter-->
+
+<section class="bg-primary text-light p-5">
+    <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Odebírej novinky</h3>
+
+            <div class="input-group news-input">
+                <input type="text" class="form-control" placeholder="Vložte email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary bg-dark btn-lg " type="button" id="button-addon2">Button</button>
+              </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!-- Boxes-->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-dark text-white">
+                    <div class="card-body text-center">
+                        <div class="h1">
+                            <i class="bi bi-laptop"></i>
+                         </div> 
+                         <h3 class="card-title mb-3">
+                             Virtual
+                         </h3> 
+                         <p class="card-text">
+                            If you are having some problems or questions about your WordPress Theme or layout, begin by checking the website of the Theme author to see if there is an upgrade or whether there are answers to your questions. Here are some other resources:
+                         </p>  
+                         <a href="" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1">
+                            <i class="bi bi-laptop"></i>
+                         </div> 
+                         <h3 class="card-title mb-3">
+                            Offline
+                         </h3> 
+                         <p class="card-text">
+                            Muffin pastry carrot cake chocolate bar. Lollipop topping toffee cake dragée. Cake muffin macaroon sesame snaps wafer. Lollipop croissant jelly beans. Marzipan biscuit icing cake. Sweet icing carrot cake dragée jelly-o bonbon fruitcake liquorice. 
+                         </p>  
+                         <a href="" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-white">
+                    <div class="card-body text-center">
+                        <div class="h1">
+                            <i class="bi bi-laptop"></i>
+                         </div> 
+                         <h3 class="card-title mb-3">
+                             Virtual
+                         </h3> 
+                         <p class="card-text">
+                            If you are having some problems or questions about your WordPress Theme or layout, begin by checking the website of the Theme author to see if there is an upgrade or whether there are answers to your questions. Here are some other resources:
+                         </p>  
+                         <a href="" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Learn SECTIONS-->
+<section id="learn" class="p-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+                <img src="https://www.autoinzat.cz/data/2020/08/06/13/600x_/dacia-duster-celebration-tce-74kw-100-4x2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md p-5">
+                <h2>Naučit se základy</h2>
+                <p class="lead">
+                    Muffin pastry carrot cake chocolate bar. Lollipop topping toffee cake dragée. Cake muffin macaroon sesame snaps wafer. Lollipop croissant jelly beans. Marzipan biscuit icing cake. Sweet icing carrot cake dragée jelly-o bonbon fruitcake liquorice. 
+                </p>
+                <p>Marzipan biscuit icing cake.Muffin pastry carrot cake chocolate bar. Lollipop topping toffee cake dragée. Cake muffin macaroon sesame snaps wafer. Lollipop croissant jelly beans. Marzipan biscuit icing cake. Sweet icing carrot cake dragée jelly-o bonbon fruitcake liquorice. </p>
+                <a href="#" class="btn btn-light mt-3"><i class="bi bi-chevron-right">Read More</i></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="learn" class="p-5 bg-dark">
+    <div class="container">
+        <div class="row align-items-center justify-content-between text-white">
+          
+            <div class="col-md p-5">
+                <h2>Nejlevnější neznamená nejhorší</h2>
+                <p class="lead">
+                    Muffin pastry carrot cake chocolate bar. Lollipop topping toffee cake dragée. Cake muffin macaroon sesame snaps wafer. Lollipop croissant jelly beans. Marzipan biscuit icing cake. Sweet icing carrot cake dragée jelly-o bonbon fruitcake liquorice. 
+                </p>
+                <p>Marzipan biscuit icing cake.Muffin pastry carrot cake chocolate bar. Lollipop topping toffee cake dragée. Cake muffin macaroon sesame snaps wafer. Lollipop croissant jelly beans. Marzipan biscuit icing cake. Sweet icing carrot cake dragée jelly-o bonbon fruitcake liquorice. </p>
+                <a href="#" class="btn btn-light mt-3"><i class="bi bi-chevron-right">Read More</i></a>
+            </div>
+
+            <div class="col-md">
+                <img src="https://c4.wallpaperflare.com/wallpaper/967/892/994/2013-awd-concept-detour-wallpaper-preview.jpg" class="img-fluid" alt="">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Question Accordion-->
+<section id="questions" class="p-5">
+    <div class="container justify-content-between ">
+        <h2 class="text-center mt-4 mb-4">Často kladené otázky</h2>
+        <div class="accordion" id="accordionExample">
+            <!--ITEM 1-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Je Dacia Duster naprd?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                            <div class="col">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/8UF1wv87ZpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--ITEM 2-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Martin Vaculík podruhé?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                            <div class="col">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/cIg398hPVcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                  
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+            <!--ITEM 3-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Dost už bylo Vaculíka
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                            <div class="col">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/UOsFr52X7dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                  
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+
+<!--SECTION CUSTOMERS-->
+<section id="customers" class="p-5 bg-primary">
+    <div class="container">
+        <h2 class="text-center text-white mt-4">Naši zákazníci</h2>
+            <p class="lead text-center text-white mb-5">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent id justo in neque elementum ultrices. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
+            </p>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/40.jpg" class="rounded-circle mb-3"  alt="">
+                        <h3 class="card-title mb-3">Mr. White Jr.</h3>
+                        <p class="card-text">Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/42.jpg" class="rounded-circle mb-3"  alt="">
+                        <h3 class="card-title mb-3">Lukáš Blažek</h3>
+                        <p class="card-text">Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/41.jpg" class="rounded-circle mb-3"  alt="">
+                        <h3 class="card-title mb-3">Nika Nachtnebel</h3>
+                        <p class="card-text">Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" class="rounded-circle mb-3"  alt="">
+                        <h3 class="card-title mb-3">Jenn Gloverstone</h3>
+                        <p class="card-text">Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--CONTACT & MAP-->
+    <section class="p-5" id="kontakt">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Naše adresa: </span> Třebíč 555
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Telefon: </span>(+420) 777 666 777
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email: </span>honem@homemade.cz
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">A ještě něco: </span>něco
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 Frontend enty</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+        <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <p class="lead">Vyplňte formulář</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                            Křestní jméno: 
+                        </label>
+                        <input type="text" class="form-control" id="first-name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="last-name" class="col-form-label"></label>
+                        Příjmení: 
+                    </div>
+                    <input type="text" class="form-control" id="last-name">
+
+                    <div class="mb-3">
+                        <label for="email" class="col-form-label"></label>
+                        Email: 
+                    </div>
+                    <input type="text" class="form-control" id="email">
+
+                    <div class="mb-3">
+                        <label for="phone" class="col-form-label"></label>
+                        Tel. číslo: 
+                    </div>
+                    <input type="text" class="form-control" id="phone">
+                </form>
+                </div>
+
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        // TO MAKE THE MAP APPEAR YOU MUST
+        // ADD YOUR ACCESS TOKEN FROM
+        // https://account.mapbox.com
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZW50eTIiLCJhIjoiY2txYXdmenQyMGNuaTJvazF3emRldHo1eCJ9.XofvVLDcp31TYZFyw3dPVA';
+        var map = new mapboxgl.Map({
+        container: 'map', // container ID
+        style: 'mapbox://styles/mapbox/streets-v11', // style URL
+        center: [49.331581432953996, 15.823583752242365], // starting position [lng, lat]
+        zoom: 9 // starting zoom
+        });
+        </script>
+
+</body>
+</html>
