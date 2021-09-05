@@ -8,4 +8,38 @@
     .news-input{
         width: 50%;
     }
+    .accordion-item iframe{
+        width: 560px;
+        height: 320px;
+
+    }
+}
+
+@media(max-width: 768px){
+    .accordion-item iframe{
+        
+        width: 61vw;
+        height: 320px;
+
+    }
+}
+
+@media(max-width: 465px){
+    .accordion-item iframe{
+        
+        width: 60vw;
+        height: 320px;
+      
+    }
+
+    @media(max-width: 395px){
+        .accordion-item iframe{
+            
+            width: 50vw;
+            height: 220px;
+          
+    
+        }
+}
+
 }
